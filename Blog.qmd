@@ -11,3 +11,9 @@ The Delta variant of SARS-CoV-2 posed a major challenge to countries that relied
 
 This analysis revisits the study by **Zachreson et al. (2022)**, which modelled the interaction between vaccine efficacy, transmission rates, and infection-control measures within quarantine systems similar to those used in **Australia** and **New Zealand**.
 
+## Understanding the Problem
+
+Quarantine breaches were rare before Delta, but the variant’s basic reproduction number (𝑅₀ ≈ 6–8) made containment far more difficult.  
+The key question addressed was:  
+**To what extent can vaccination and infection control offset the increased transmissibility of Delta in border-quarantine environments?**
+
