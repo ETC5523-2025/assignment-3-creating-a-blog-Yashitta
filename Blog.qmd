@@ -1,7 +1,10 @@
 ---
 title: "Delta Variant and the Limits of Quarantine Effectiveness"
 author: "Yashitta Bawa"
-format: html
+format: 
+    html: 
+        toc: true
+        code-fold: true
 editor: visual
 ---
 
@@ -25,4 +28,17 @@ The authors used **simulation modelling** combining two components:
 - a **branching-process model** to estimate community-outbreak probabilities from breach events.
 
 Scenarios varied **vaccine efficacy (0–90 %)**, **transmissibility (𝑅₀ = 3–10)**, and **infection-control strength**, allowing the study to test which combinations could maintain pre-Delta safety levels.
+
+## Key Results
+
+```{r}
+#| echo: false
+#| label: fig-heatmap
+#| fig-cap: "Heatmap of R₀ and vaccine efficacy showing outbreak risk."
+library(knitr)
+
+include_graphics("figure1.png")
+```
+
+@fig-heatmap illustrates how higher transmissibility sharply increased outbreak risk, even at high vaccine efficacy.
 
