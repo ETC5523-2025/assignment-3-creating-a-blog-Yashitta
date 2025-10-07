@@ -4,6 +4,27 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "This is a blog template for the ETC5523 Communicating with Data assessment at Monash University."
+    "text": "I am a Master of Business Analytics student at Monash University, originally from New Delhi, India. My academic and professional journey reflects a strong interest in how data-driven thinking can shape smarter, evidence-based decisions.\nBefore beginning my master’s, I worked in the investment industry at Aditya Birla Sun Life AMC, where I learned how data and analytics underpin financial strategy, portfolio management, and client insights. This experience built my appreciation for how numbers tell meaningful stories when translated effectively.\nI’m particularly passionate about transforming complex data into clear, actionable narratives through analytics and visualisation. My studies have strengthened my foundation in statistics, programming, and communication, helping me explore the full process — from data wrangling to interpretation and presentation.\nBeyond university, I enjoy playing basketball, going to the gym, baking, and travelling. These interests keep me balanced and curious — qualities I believe also drive thoughtful analysis and problem-solving.\n\n\n\nData & Code: R (tidyverse, ggplot2, Quarto), Python (pandas), Git/GitHub\n\nAnalysis: data visualisation, exploratory data analysis (EDA), model evaluation, and reproducible pipelines\n\nCommunication: concise analytical writing, clear figure design, and stakeholder-focused reporting\n\n\n\n\n\nDeveloping high-quality, publication-ready reports using R and Quarto with strong documentation and cross-referencing\n\nEnhancing my ability to translate analytical findings into strategic business insights\n\nBuilding collaborative and reproducible workflows that promote transparency and team efficiency\n\n\n\n\nThis site showcases selected coursework and mini-projects from my analytics journey at Monash University. It’s an evolving space where I continue to refine my writing, visualisation style, and coding practices as I grow as an analyst."
+  },
+  {
+    "objectID": "about.html#what-i-work-with",
+    "href": "about.html#what-i-work-with",
+    "title": "About",
+    "section": "",
+    "text": "Data & Code: R (tidyverse, ggplot2, Quarto), Python (pandas), Git/GitHub\n\nAnalysis: data visualisation, exploratory data analysis (EDA), model evaluation, and reproducible pipelines\n\nCommunication: concise analytical writing, clear figure design, and stakeholder-focused reporting"
+  },
+  {
+    "objectID": "about.html#what-im-exploring-next",
+    "href": "about.html#what-im-exploring-next",
+    "title": "About",
+    "section": "",
+    "text": "Developing high-quality, publication-ready reports using R and Quarto with strong documentation and cross-referencing\n\nEnhancing my ability to translate analytical findings into strategic business insights\n\nBuilding collaborative and reproducible workflows that promote transparency and team efficiency"
+  },
+  {
+    "objectID": "about.html#this-site",
+    "href": "about.html#this-site",
+    "title": "About",
+    "section": "",
+    "text": "This site showcases selected coursework and mini-projects from my analytics journey at Monash University. It’s an evolving space where I continue to refine my writing, visualisation style, and coding practices as I grow as an analyst."
   }
 ]
