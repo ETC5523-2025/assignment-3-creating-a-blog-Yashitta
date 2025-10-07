@@ -32,7 +32,6 @@ Scenarios varied **vaccine efficacy (0–90 %)**, **transmissibility (𝑅₀ = 
 ## Key Results
 
 ```{r}
-#| echo: false
 #| label: fig-heatmap
 #| fig-cap: "Heatmap of R₀ and vaccine efficacy showing outbreak risk."
 library(knitr)
@@ -43,6 +42,8 @@ include_graphics("figure1.png")
 @fig-heatmap illustrates how higher transmissibility sharply increased outbreak risk, even at high vaccine efficacy.
 
 ```{r}
+#| label: tbl-summary
+
 # Created a small data frame
 delta_summary <- data.frame(
   Scenario = c("Base Case", "High Efficacy", "Weak Control", "Very High R₀"),
@@ -57,6 +58,8 @@ kable(
   caption = "Summary of simulated scenarios showing combined effects of vaccine efficacy, transmissibility, and infection control on outbreak risk.",
   align = "lcccl")
 ```
+
+@tbl-summary summarises the main scenario outcomes.
 
 ## Main Findings
 
@@ -77,4 +80,12 @@ Delta reshaped the risk landscape for border management.
 The modelling shows that even strong vaccination coverage cannot fully offset the variant’s transmissibility without robust infection control.  
 
 For future preparedness, quarantine should be treated as a **recurring necessity**, not a temporary measure, ensuring that systems remain adaptable to emerging variants.  
+
+## References
+
+-   **Zachreson, C., Shearer, F. M., Price, D. J., Lydeamore, M. J., McVernon, J., McCaw, J. M., & Geard, N.**
+
+    Zachreson, C., Shearer, F. M., Price, D. J., Lydeamore, M. J., McVernon, J., McCaw, J. M., & Geard, N. (2022).  
+    *COVID-19 in low-tolerance border quarantine systems: Impact of the Delta variant of SARS-CoV-2.*  
+    *Science Advances, 8*(14), eabm3624. <https://doi.org/10.1126/sciadv.abm3624>.
 

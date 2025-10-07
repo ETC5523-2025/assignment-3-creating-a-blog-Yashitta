@@ -160,6 +160,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#main-findings" id="toc-main-findings" class="nav-link" data-scroll-target="#main-findings">Main Findings</a></li>
   <li><a href="#implications-for-public-health-policy" id="toc-implications-for-public-health-policy" class="nav-link" data-scroll-target="#implications-for-public-health-policy">Implications for Public Health Policy</a></li>
   <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -215,6 +216,12 @@ The key question addressed was:<br>
 <section id="key-results" class="level2">
 <h2 class="anchored" data-anchor-id="key-results">Key Results</h2>
 <div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(knitr)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">include_graphics</span>(<span class="st">"figure1.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output-display">
 <div id="fig-heatmap" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -232,23 +239,28 @@ Figure&nbsp;1: Heatmap of R₀ and vaccine efficacy showing outbreak risk.
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Created a small data frame</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>delta_summary <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">Scenario =</span> <span class="fu">c</span>(<span class="st">"Base Case"</span>, <span class="st">"High Efficacy"</span>, <span class="st">"Weak Control"</span>, <span class="st">"Very High R₀"</span>),</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">Vaccine Efficacy (%)</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">70</span>, <span class="dv">90</span>, <span class="dv">70</span>, <span class="dv">80</span>),</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">R₀</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">6</span>, <span class="dv">6</span>, <span class="dv">6</span>, <span class="dv">8</span>),</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">Infection Control</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">c</span>(<span class="st">"Strong"</span>, <span class="st">"Strong"</span>, <span class="st">"Weak"</span>, <span class="st">"Strong"</span>),</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">Relative Outbreak Risk</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">c</span>(<span class="st">"Moderate"</span>, <span class="st">"Low"</span>, <span class="st">"High"</span>, <span class="st">"High"</span>))</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Table</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  delta_summary,</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">caption =</span> <span class="st">"Summary of simulated scenarios showing combined effects of vaccine efficacy, transmissibility, and infection control on outbreak risk."</span>,</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  <span class="at">align =</span> <span class="st">"lcccl"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Created a small data frame</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>delta_summary <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">Scenario =</span> <span class="fu">c</span>(<span class="st">"Base Case"</span>, <span class="st">"High Efficacy"</span>, <span class="st">"Weak Control"</span>, <span class="st">"Very High R₀"</span>),</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">Vaccine Efficacy (%)</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">70</span>, <span class="dv">90</span>, <span class="dv">70</span>, <span class="dv">80</span>),</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">R₀</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">6</span>, <span class="dv">6</span>, <span class="dv">6</span>, <span class="dv">8</span>),</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">Infection Control</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">c</span>(<span class="st">"Strong"</span>, <span class="st">"Strong"</span>, <span class="st">"Weak"</span>, <span class="st">"Strong"</span>),</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="st">`</span><span class="at">Relative Outbreak Risk</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">c</span>(<span class="st">"Moderate"</span>, <span class="st">"Low"</span>, <span class="st">"High"</span>, <span class="st">"High"</span>))</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Table</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>  delta_summary,</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">caption =</span> <span class="st">"Summary of simulated scenarios showing combined effects of vaccine efficacy, transmissibility, and infection control on outbreak risk."</span>,</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>  <span class="at">align =</span> <span class="st">"lcccl"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
+<div id="tbl-summary" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-summary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Summary of simulated scenarios showing combined effects of vaccine efficacy, transmissibility, and infection control on outbreak risk.
+</figcaption>
+<div aria-describedby="tbl-summary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
-<caption>Summary of simulated scenarios showing combined effects of vaccine efficacy, transmissibility, and infection control on outbreak risk.</caption>
+<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
 <colgroup>
 <col style="width: 17%">
 <col style="width: 26%">
@@ -298,6 +310,10 @@ Figure&nbsp;1: Heatmap of R₀ and vaccine efficacy showing outbreak risk.
 </table>
 </div>
 </div>
+</figure>
+</div>
+</div>
+<p><a href="#tbl-summary" class="quarto-xref">Table&nbsp;1</a> summarises the main scenario outcomes.</p>
 </section>
 <section id="main-findings" class="level2">
 <h2 class="anchored" data-anchor-id="main-findings">Main Findings</h2>
@@ -320,6 +336,15 @@ Relying solely on vaccine protection against highly transmissible variants risks
 <p>Delta reshaped the risk landscape for border management.<br>
 The modelling shows that even strong vaccination coverage cannot fully offset the variant’s transmissibility without robust infection control.</p>
 <p>For future preparedness, quarantine should be treated as a <strong>recurring necessity</strong>, not a temporary measure, ensuring that systems remain adaptable to emerging variants.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<ul>
+<li><p><strong>Zachreson, C., Shearer, F. M., Price, D. J., Lydeamore, M. J., McVernon, J., McCaw, J. M., &amp; Geard, N.</strong></p>
+<p>Zachreson, C., Shearer, F. M., Price, D. J., Lydeamore, M. J., McVernon, J., McCaw, J. M., &amp; Geard, N. (2022).<br>
+<em>COVID-19 in low-tolerance border quarantine systems: Impact of the Delta variant of SARS-CoV-2.</em><br>
+<em>Science Advances, 8</em>(14), eabm3624. <a href="https://doi.org/10.1126/sciadv.abm3624" class="uri">https://doi.org/10.1126/sciadv.abm3624</a>.</p></li>
+</ul>
 
 
 </section>
