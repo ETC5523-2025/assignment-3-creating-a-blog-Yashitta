@@ -42,3 +42,19 @@ include_graphics("figure1.png")
 
 @fig-heatmap illustrates how higher transmissibility sharply increased outbreak risk, even at high vaccine efficacy.
 
+```{r}
+# Created a small data frame
+delta_summary <- data.frame(
+  Scenario = c("Base Case", "High Efficacy", "Weak Control", "Very High R₀"),
+  `Vaccine Efficacy (%)` = c(70, 90, 70, 80),
+  `R₀` = c(6, 6, 6, 8),
+  `Infection Control` = c("Strong", "Strong", "Weak", "Strong"),
+  `Relative Outbreak Risk` = c("Moderate", "Low", "High", "High"))
+
+# Table
+kable(
+  delta_summary,
+  caption = "Summary of simulated scenarios showing combined effects of vaccine efficacy, transmissibility, and infection control on outbreak risk.",
+  align = "lcccl")
+```
+
