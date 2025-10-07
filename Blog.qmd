@@ -1,0 +1,13 @@
+---
+title: "Delta Variant and the Limits of Quarantine Effectiveness"
+author: "Yashitta Bawa"
+format: html
+editor: visual
+---
+
+# Delta Variant and the Limits of Quarantine Effectiveness
+
+The Delta variant of SARS-CoV-2 posed a major challenge to countries that relied on strict border quarantine to prevent outbreaks. Even with high vaccination rates, the variant’s higher transmissibility raised the question: **could existing quarantine systems still contain imported infections?**
+
+This analysis revisits the study by **Zachreson et al. (2022)**, which modelled the interaction between vaccine efficacy, transmission rates, and infection-control measures within quarantine systems similar to those used in **Australia** and **New Zealand**.
+
