@@ -58,3 +58,9 @@ kable(
   align = "lcccl")
 ```
 
+## Main Findings
+
+- **Vaccination alone is insufficient.** At 𝑅₀ ≥ 6, vaccine efficacy above 70–80% is required just to maintain pre-Delta safety.  
+- **Infection control remains critical.** Weak quarantine protocols amplified breach risk up to 100× under low-efficacy conditions.  
+- **Combined defences work best.** High efficacy plus strong testing and isolation delayed the median time to outbreak from ≈ 15 days to > 1000 days.  
+
