@@ -64,3 +64,10 @@ kable(
 - **Infection control remains critical.** Weak quarantine protocols amplified breach risk up to 100× under low-efficacy conditions.  
 - **Combined defences work best.** High efficacy plus strong testing and isolation delayed the median time to outbreak from ≈ 15 days to > 1000 days.  
 
+## Implications for Public Health Policy
+
+The study underscores that vaccination programs and strict quarantine measures must operate together.  
+Relying solely on vaccine protection against highly transmissible variants risks repeated breaches.  
+
+For health agencies, this means maintaining **multi-layered defence systems** — vaccination, testing, ventilation, and rapid isolation — to reduce outbreak probability and manage imported risk effectively.  
+
