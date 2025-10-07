@@ -17,3 +17,12 @@ Quarantine breaches were rare before Delta, but the variant’s basic reproducti
 The key question addressed was:  
 **To what extent can vaccination and infection control offset the increased transmissibility of Delta in border-quarantine environments?**
 
+## Data and Methods
+
+The authors used **simulation modelling** combining two components:
+
+- a **quarantine model** for 100 travellers and 20 workers over a 14-day period with PCR testing and case isolation, and  
+- a **branching-process model** to estimate community-outbreak probabilities from breach events.
+
+Scenarios varied **vaccine efficacy (0–90 %)**, **transmissibility (𝑅₀ = 3–10)**, and **infection-control strength**, allowing the study to test which combinations could maintain pre-Delta safety levels.
+
