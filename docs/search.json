@@ -7,34 +7,6 @@
     "text": "About Me\nI’m a Master of Business Analytics student at Monash University, originally from New Delhi, India. My journey reflects a strong interest in using data-driven thinking to make smarter, evidence-based decisions.\nI completed my undergraduate degree in Bachelor of Commerce (Honours), specialising in Finance from Gargi College, University of Delhi.\nBefore starting my master’s, I worked in the investment industry at Aditya Birla Sun Life AMC, where I learned how analytics drives financial strategy, portfolio management, and client insights. This experience deepened my appreciation for how numbers tell meaningful stories.\nI’m passionate about turning complex data into clear, actionable insights through analytics and visualisation. My studies have strengthened my foundation in statistics, programming, and communication, helping me understand the full process — from data wrangling to interpretation and presentation.\nOutside university, I enjoy basketball, the gym, baking, and travelling — interests that keep me balanced, curious, and creative in how I approach problem-solving.\n\n\n\nWhat I Work With\n\nData & Code: R (tidyverse, ggplot2, Quarto), Python (pandas), Git/GitHub\n\nAnalysis: data visualisation, exploratory data analysis (EDA), model evaluation, and reproducible pipelines\n\nCommunication: concise analytical writing, clear figure design, and stakeholder-focused reporting\n\n\n\n\nWhat I’m Exploring Next\n\nDeveloping high-quality, publication-ready reports using R and Quarto with strong documentation and cross-referencing\n\nEnhancing my ability to translate analytical findings into strategic business insights\n\nBuilding collaborative and reproducible workflows that promote transparency and team efficiency\n\n\n\n\nThis Site\nThis site showcases selected coursework and mini-projects from my analytics journey at Monash University. It’s an evolving space where I continue to refine my writing, visualisation style, and coding practices as I grow as an analyst.\n\n\n\nContact\nIf you’d like to connect or collaborate, you can reach me at:\n\n\n\n\n\n\nybaw0002@student.monash.edu\n\n\n\n\n\n\n\nyashittabawa\n\n\n\n\n\n\n\nYashitta"
   },
   {
-    "objectID": "about.html#what-i-work-with",
-    "href": "about.html#what-i-work-with",
-    "title": "Yashitta Bawa",
-    "section": "What I Work With",
-    "text": "What I Work With\n\nData & Code: R (tidyverse, ggplot2, Quarto), Python (pandas), Git/GitHub\n\nAnalysis: data visualisation, exploratory data analysis (EDA), model evaluation, and reproducible pipelines\n\nCommunication: concise analytical writing, clear figure design, and stakeholder-focused reporting"
-  },
-  {
-    "objectID": "about.html#what-im-exploring-next",
-    "href": "about.html#what-im-exploring-next",
-    "title": "Yashitta Bawa",
-    "section": "What I’m Exploring Next",
-    "text": "What I’m Exploring Next\n\nDeveloping high-quality, publication-ready reports using R and Quarto with strong documentation and cross-referencing\n\nEnhancing my ability to translate analytical findings into strategic business insights\n\nBuilding collaborative and reproducible workflows that promote transparency and team efficiency"
-  },
-  {
-    "objectID": "about.html#this-site",
-    "href": "about.html#this-site",
-    "title": "Yashitta Bawa",
-    "section": "This Site",
-    "text": "This Site\nThis site showcases selected coursework and mini-projects from my analytics journey at Monash University. It’s an evolving space where I continue to refine my writing, visualisation style, and coding practices as I grow as an analyst."
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog Template",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!"
-  },
-  {
     "objectID": "posts/Blog/Blog.html",
     "href": "posts/Blog/Blog.html",
     "title": "Delta Variant and the Limits of Quarantine Effectiveness",
@@ -96,19 +68,5 @@
     "title": "Project Atlas",
     "section": "",
     "text": "Delta Variant and the Limits of Quarantine Effectiveness\n\n\n\n\n\n\nBlog\n\n\n\n\n\n\n\n\n\nSep 14, 2025\n\n\nYashitta Bawa\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html#contact",
-    "href": "about.html#contact",
-    "title": "Yashitta Bawa",
-    "section": "Contact",
-    "text": "Contact\nIf you’d like to connect or collaborate, you can reach me at:\n\n\n\n\n\n\nybaw0002@student.monash.edu\n\n\n\n\n\n\n\nyashittabawa\n\n\n\n\n\n\n\nYashitta"
-  },
-  {
-    "objectID": "about.html#about-me",
-    "href": "about.html#about-me",
-    "title": "Yashitta Bawa",
-    "section": "",
-    "text": "I am a Master of Business Analytics student at Monash University, originally from New Delhi, India. My academic and professional journey reflects a strong interest in how data-driven thinking can shape smarter, evidence-based decisions.\nBefore beginning my master’s, I worked in the investment industry at Aditya Birla Sun Life AMC, where I learned how data and analytics underpin financial strategy, portfolio management, and client insights. This experience built my appreciation for how numbers tell meaningful stories when translated effectively.\nI’m particularly passionate about transforming complex data into clear, actionable narratives through analytics and visualisation. My studies have strengthened my foundation in statistics, programming, and communication, helping me explore the full process — from data wrangling to interpretation and presentation.\nBeyond university, I enjoy playing basketball, going to the gym, baking, and travelling. These interests keep me balanced and curious — qualities I believe also drive thoughtful analysis and problem-solving."
   }
 ]
