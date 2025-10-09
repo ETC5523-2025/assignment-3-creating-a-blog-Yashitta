@@ -3,15 +3,19 @@ project:
   output-dir: docs
 
 website:
-  title: "Projects"
+  title: "<a href='about.html' class='navbar-brand-link'>Yashitta Bawa</a>"
   navbar:
     background: "#0a081c"
     right:
-      - about.qmd
       - icon: github
         href: https://github.com/Yashitta
       - icon: linkedin
         href: https://www.linkedin.com/in/yashittabawa
+    left:
+      - text: "Home"
+        href: about.qmd
+      - text: "Projects"
+        href: index.qmd
 format:
   html:
     theme: cosmo

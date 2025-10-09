@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "Yashitta Bawa"
 image: profile.jpg
 about:
   template: trestles
@@ -15,10 +15,13 @@ about:
       href: mailto:ybaw0002@student.monash.edu
 format:
   html:
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     theme: cosmo
 ---
 
-# Hi, I'm Yashitta
+# About Me 
 
 I am a **Master of Business Analytics student at Monash University**, originally from **New Delhi, India**. My academic and professional journey reflects a strong interest in how data-driven thinking can shape smarter, evidence-based decisions.  
 
@@ -28,25 +31,46 @@ I’m particularly passionate about **transforming complex data into clear, acti
 
 Beyond university, I enjoy **playing basketball**, **going to the gym**, **baking**, and **travelling**. These interests keep me balanced and curious — qualities I believe also drive thoughtful analysis and problem-solving.  
 
-## What I Work With
+::: {.full-below}
+# What I Work With
 
 - **Data & Code:** R (tidyverse, ggplot2, Quarto), Python (pandas), Git/GitHub  
 - **Analysis:** data visualisation, exploratory data analysis (EDA), model evaluation, and reproducible pipelines  
 - **Communication:** concise analytical writing, clear figure design, and stakeholder-focused reporting  
 
-## What I’m Exploring Next
+---
+
+# What I’m Exploring Next
 
 - Developing **high-quality, publication-ready reports** using R and Quarto with strong documentation and cross-referencing  
 - Enhancing my ability to **translate analytical findings into strategic business insights**  
 - Building **collaborative and reproducible workflows** that promote transparency and team efficiency  
 
-## This Site
+---
+
+# This Site
 
 This site showcases selected coursework and mini-projects from my analytics journey at Monash University. It’s an evolving space where I continue to refine my writing, visualisation style, and coding practices as I grow as an analyst.  
 
-## Contact
+---
 
-If you’d like to connect or collaborate, you can reach me at:  
-📧 **[ybaw0002@student.monash.edu](mailto:ybaw0002@student.monash.edu)**  
-🔗 **[LinkedIn](https://www.linkedin.com/in/yashittabawa)**  
-💻 **[GitHub](https://github.com/Yashitta)**  
+# Contact
+
+If you’d like to connect or collaborate, you can reach me at:
+
+<table class="contact-table">
+  <tr>
+    <td><i class="fa-solid fa-envelope"></i></td>
+    <td><a href="mailto:ybaw0002@student.monash.edu">ybaw0002@student.monash.edu</a></td>
+  </tr>
+  <tr>
+    <td><i class="fa-brands fa-linkedin"></i></td>
+    <td><a href="https://www.linkedin.com/in/yashittabawa/">yashittabawa</a></td>
+  </tr>
+  <tr>
+    <td><i class="fa-brands fa-github"></i></td>
+    <td><a href="https://github.com/YashittaBawa">Yashitta</a></td>
+  </tr>
+</table>
+
+:::

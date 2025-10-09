@@ -2,30 +2,30 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About Me",
+    "title": "Yashitta Bawa",
     "section": "",
-    "text": "I am a Master of Business Analytics student at Monash University, originally from New Delhi, India. My academic and professional journey reflects a strong interest in how data-driven thinking can shape smarter, evidence-based decisions.\nBefore beginning my master’s, I worked in the investment industry at Aditya Birla Sun Life AMC, where I learned how data and analytics underpin financial strategy, portfolio management, and client insights. This experience built my appreciation for how numbers tell meaningful stories when translated effectively.\nI’m particularly passionate about transforming complex data into clear, actionable narratives through analytics and visualisation. My studies have strengthened my foundation in statistics, programming, and communication, helping me explore the full process — from data wrangling to interpretation and presentation.\nBeyond university, I enjoy playing basketball, going to the gym, baking, and travelling. These interests keep me balanced and curious — qualities I believe also drive thoughtful analysis and problem-solving.\n\n\n\nData & Code: R (tidyverse, ggplot2, Quarto), Python (pandas), Git/GitHub\n\nAnalysis: data visualisation, exploratory data analysis (EDA), model evaluation, and reproducible pipelines\n\nCommunication: concise analytical writing, clear figure design, and stakeholder-focused reporting\n\n\n\n\n\nDeveloping high-quality, publication-ready reports using R and Quarto with strong documentation and cross-referencing\n\nEnhancing my ability to translate analytical findings into strategic business insights\n\nBuilding collaborative and reproducible workflows that promote transparency and team efficiency\n\n\n\n\nThis site showcases selected coursework and mini-projects from my analytics journey at Monash University. It’s an evolving space where I continue to refine my writing, visualisation style, and coding practices as I grow as an analyst.\n\n\n\nIf you’d like to connect or collaborate, you can reach me at:\n📧 ybaw0002@student.monash.edu\n🔗 LinkedIn\n💻 GitHub"
+    "text": "About Me\nI am a Master of Business Analytics student at Monash University, originally from New Delhi, India. My academic and professional journey reflects a strong interest in how data-driven thinking can shape smarter, evidence-based decisions.\nBefore beginning my master’s, I worked in the investment industry at Aditya Birla Sun Life AMC, where I learned how data and analytics underpin financial strategy, portfolio management, and client insights. This experience built my appreciation for how numbers tell meaningful stories when translated effectively.\nI’m particularly passionate about transforming complex data into clear, actionable narratives through analytics and visualisation. My studies have strengthened my foundation in statistics, programming, and communication, helping me explore the full process — from data wrangling to interpretation and presentation.\nBeyond university, I enjoy playing basketball, going to the gym, baking, and travelling. These interests keep me balanced and curious — qualities I believe also drive thoughtful analysis and problem-solving.\n\n\n\nWhat I Work With\n\nData & Code: R (tidyverse, ggplot2, Quarto), Python (pandas), Git/GitHub\n\nAnalysis: data visualisation, exploratory data analysis (EDA), model evaluation, and reproducible pipelines\n\nCommunication: concise analytical writing, clear figure design, and stakeholder-focused reporting\n\n\n\n\nWhat I’m Exploring Next\n\nDeveloping high-quality, publication-ready reports using R and Quarto with strong documentation and cross-referencing\n\nEnhancing my ability to translate analytical findings into strategic business insights\n\nBuilding collaborative and reproducible workflows that promote transparency and team efficiency\n\n\n\n\nThis Site\nThis site showcases selected coursework and mini-projects from my analytics journey at Monash University. It’s an evolving space where I continue to refine my writing, visualisation style, and coding practices as I grow as an analyst.\n\n\n\nContact\nIf you’d like to connect or collaborate, you can reach me at:\n\n\n\n\n\n\nybaw0002@student.monash.edu\n\n\n\n\n\n\n\nyashittabawa\n\n\n\n\n\n\n\nYashitta"
   },
   {
     "objectID": "about.html#what-i-work-with",
     "href": "about.html#what-i-work-with",
-    "title": "About Me",
-    "section": "",
-    "text": "Data & Code: R (tidyverse, ggplot2, Quarto), Python (pandas), Git/GitHub\n\nAnalysis: data visualisation, exploratory data analysis (EDA), model evaluation, and reproducible pipelines\n\nCommunication: concise analytical writing, clear figure design, and stakeholder-focused reporting"
+    "title": "Yashitta Bawa",
+    "section": "What I Work With",
+    "text": "What I Work With\n\nData & Code: R (tidyverse, ggplot2, Quarto), Python (pandas), Git/GitHub\n\nAnalysis: data visualisation, exploratory data analysis (EDA), model evaluation, and reproducible pipelines\n\nCommunication: concise analytical writing, clear figure design, and stakeholder-focused reporting"
   },
   {
     "objectID": "about.html#what-im-exploring-next",
     "href": "about.html#what-im-exploring-next",
-    "title": "About Me",
-    "section": "",
-    "text": "Developing high-quality, publication-ready reports using R and Quarto with strong documentation and cross-referencing\n\nEnhancing my ability to translate analytical findings into strategic business insights\n\nBuilding collaborative and reproducible workflows that promote transparency and team efficiency"
+    "title": "Yashitta Bawa",
+    "section": "What I’m Exploring Next",
+    "text": "What I’m Exploring Next\n\nDeveloping high-quality, publication-ready reports using R and Quarto with strong documentation and cross-referencing\n\nEnhancing my ability to translate analytical findings into strategic business insights\n\nBuilding collaborative and reproducible workflows that promote transparency and team efficiency"
   },
   {
     "objectID": "about.html#this-site",
     "href": "about.html#this-site",
-    "title": "About Me",
-    "section": "",
-    "text": "This site showcases selected coursework and mini-projects from my analytics journey at Monash University. It’s an evolving space where I continue to refine my writing, visualisation style, and coding practices as I grow as an analyst."
+    "title": "Yashitta Bawa",
+    "section": "This Site",
+    "text": "This Site\nThis site showcases selected coursework and mini-projects from my analytics journey at Monash University. It’s an evolving space where I continue to refine my writing, visualisation style, and coding practices as I grow as an analyst."
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -100,8 +100,15 @@
   {
     "objectID": "about.html#contact",
     "href": "about.html#contact",
-    "title": "About Me",
+    "title": "Yashitta Bawa",
+    "section": "Contact",
+    "text": "Contact\nIf you’d like to connect or collaborate, you can reach me at:\n\n\n\n\n\n\nybaw0002@student.monash.edu\n\n\n\n\n\n\n\nyashittabawa\n\n\n\n\n\n\n\nYashitta"
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "Yashitta Bawa",
     "section": "",
-    "text": "If you’d like to connect or collaborate, you can reach me at:\n📧 ybaw0002@student.monash.edu\n🔗 LinkedIn\n💻 GitHub"
+    "text": "I am a Master of Business Analytics student at Monash University, originally from New Delhi, India. My academic and professional journey reflects a strong interest in how data-driven thinking can shape smarter, evidence-based decisions.\nBefore beginning my master’s, I worked in the investment industry at Aditya Birla Sun Life AMC, where I learned how data and analytics underpin financial strategy, portfolio management, and client insights. This experience built my appreciation for how numbers tell meaningful stories when translated effectively.\nI’m particularly passionate about transforming complex data into clear, actionable narratives through analytics and visualisation. My studies have strengthened my foundation in statistics, programming, and communication, helping me explore the full process — from data wrangling to interpretation and presentation.\nBeyond university, I enjoy playing basketball, going to the gym, baking, and travelling. These interests keep me balanced and curious — qualities I believe also drive thoughtful analysis and problem-solving."
   }
 ]
