@@ -89,7 +89,7 @@ a:hover { color: #f0e7ff;
 text-shadow: 0 0 10px rgba(200, 175, 255, 0.6); 
 }
 
-/* Navbar link readability on dark */
+/* Navbar link */
 .navbar a { color: #efeaff !important; }
 .navbar a:hover { color: #ffffff !important; 
 text-shadow: 0 0 8px rgba(190,160,255,.5); 
@@ -237,7 +237,7 @@ text-shadow: 0 0 8px rgba(190,160,255,.5);
   transition: all 0.25s ease;
 }
 
-/* Keep brand colors on hover */
+/* Icon colors on hover */
 .navbar a[href*="github.com"]:hover,
 .about-links a[href*="github.com"]:hover,
 .quarto-about-trestles .about-contents a[href*="github.com"]:hover {
@@ -324,7 +324,7 @@ text-shadow: 0 0 8px rgba(190,160,255,.5);
   box-shadow: 0 4px 16px rgba(0,0,0,0.35);
 }
 
-/* Remove text-glow inside the card */
+/* Text-glow inside the card */
 .quarto-listing .quarto-post *,
 .quarto-listing-item * {
   text-shadow: none !important;
@@ -359,7 +359,7 @@ text-shadow: 0 0 8px rgba(190,160,255,.5);
   opacity: 1 !important;
 }
 
-/* Remove extra spacing under subtitle in banner */
+/* Extra spacing under subtitle in banner */
 .quarto-title-banner .quarto-title-meta,
 .quarto-title-banner .quarto-title-subtitle {
   margin-bottom: 0 !important;
@@ -447,7 +447,7 @@ main h1, main h2, main h3, main h4, main h5, main h6,
   text-shadow: 0 0 10px rgba(200, 180, 255, 0.6);
 }
 
-/* Subtle divider line below navbar */
+/* Divider line below navbar */
 .navbar {
   border-bottom: 1px solid rgba(220, 200, 255, 0.15);
   box-shadow: 0 2px 10px rgba(50, 20, 100, 0.15);
@@ -517,7 +517,7 @@ main li,
   line-height: 1.75;
 }
 
-/* Remove the built-in vertical rule and keep spacing */
+/* Built-in vertical rule and spacing */
 .quarto-about-trestles .about-contents {
   border-left: none !important; 
   position: relative;
@@ -525,12 +525,11 @@ main li,
   margin-left: 2rem;
 }
 
-/* Vertical divider limited to the About Me section only */
+/* Vertical divider */
 #about-me {
   position: relative; 
 }
 
-/* The line: sits ~2rem to the left of the About text */
 #about-me::before {
   content: "";
   position: absolute;
@@ -542,15 +541,15 @@ main li,
   pointer-events: none;
 }
 
-/* ====== Custom Search Bar Styling (Quarto Site Search) ====== */
+/* Search Bar Styling */
 
 /* Main search input field */
 .aa-Input, .aa-Input:focus {
-  background-color: rgba(30, 20, 60, 0.95) !important;  /* dark background */
-  color: #efeaff !important;                            /* text color */
+  background-color: rgba(30, 20, 60, 0.95) !important;
+  color: #efeaff !important;
   border: 1px solid rgba(190, 160, 255, 0.4) !important;
   box-shadow: 0 0 10px rgba(140, 100, 255, 0.25) !important;
-  border-radius: 10px !important;                       /* smooth rounded corners */
+  border-radius: 10px !important;
 }
 
 /* Placeholder text */
@@ -558,7 +557,7 @@ main li,
   color: rgba(220, 200, 255, 0.65) !important;
 }
 
-/* The overlay background when search opens */
+/* Search overlay background */
 .aa-DetachedOverlay {
   background-color: rgba(10, 8, 20, 0.75) !important;
   backdrop-filter: blur(6px) !important;
@@ -577,18 +576,19 @@ main li,
   color: #c9b6ff !important;
 }
 
-/* Results dropdown (panel) */
+/* Results dropdown */
 .aa-Panel {
   background-color: rgba(20, 15, 45, 0.98) !important;
   border: 1px solid rgba(190, 160, 255, 0.25) !important;
   color: #efeaff !important;
 }
 
-/* Highlight hovered search result */
+/* Hovered search result */
 .aa-Item[aria-selected="true"] {
   background-color: rgba(90, 60, 180, 0.35) !important;
 }
 
+/* Contact table */
 .contact-table {
   margin: 1.5rem 0;                   
   border-collapse: separate;
