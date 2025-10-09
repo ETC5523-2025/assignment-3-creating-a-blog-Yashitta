@@ -1,7 +1,60 @@
 /* css styles */
-.navbar-dark, .quarto-title-banner {
-  background-color: #006DAE;
+
+/* Background */
+body {
+  background: linear-gradient(
+    to bottom left,
+    #0a081c 20%,
+    #080515 60%,
+    #2b1369 90%,
+    #3e19a3 100%
+  );
+  color: #eeeaff;
+  min-height: 100vh;
 }
+
+/* Banner */
+.quarto-title-banner {
+  background: rgba(20, 10, 50, 0.35);
+  border-bottom: 1px solid rgba(190, 160, 255, 0.25);
+  box-shadow: 0 5px 25px rgba(100, 60, 200, 0.25);
+  backdrop-filter: blur(4px);
+}
+
+.navbar-dark {
+  background: transparent;
+  box-shadow: none;
+}
+
+h1, h2, h3, h4, h5, h6, .listing-title {
+  color: #ffffff !important;
+}
+
+a {
+  color: #a586ff;
+}
+
+a:hover {
+  color: #d1b3ff;
+}
+
+/* White text + subtle purple glow */
+h1, h2, h3, h4, h5, h6, .listing-title {
+  color: #ffffff !important;
+  text-shadow: 0 0 12px rgba(180, 150, 255, 0.35);
+}
+
+a { color: #cbb9ff; }
+a:hover { color: #f0e7ff; 
+text-shadow: 0 0 10px rgba(200, 175, 255, 0.6); 
+}
+
+/* Navbar link readability on dark */
+.navbar a { color: #efeaff !important; }
+.navbar a:hover { color: #ffffff !important; 
+text-shadow: 0 0 8px rgba(190,160,255,.5); 
+}
+
 
 /* Photo size and position */
 
@@ -38,4 +91,224 @@
 .quarto-about-trestles .about-links {
   text-align: center;
   margin-top: 12px;
+}
+
+/* Icon colors */
+:root{
+  --gh: #6b5bc4;
+  --li: #0A66C2;
+  --mail: #ffb703;
+}
+
+/* Smooth transitions on all links/icons */
+.navbar a, .about-links a, .quarto-about-trestles .about-contents a {
+  transition: color .20s ease, 
+              background-color .20s ease,
+              border-color .20s ease, 
+              box-shadow .25s ease, 
+              filter .25s ease;
+  text-decoration: none;
+}
+
+/* Base style for icon buttons and contact links */
+.about-links a,
+.quarto-about-trestles .about-contents a,
+.navbar a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3em 0.8em;
+  border-radius: 8px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+/* GITHUB */
+/* Navbar */
+.navbar a[href*="github.com"],
+/* Icons under photo */
+.about-links a[href*="github.com"],
+/* Contact section link */
+.quarto-about-trestles .about-contents a[href*="github.com"]{
+  color: var(--gh) !important;
+  border-color: var(--gh) !important;
+}
+.about-links a[href*="github.com"] {
+  /* the little rounded square buttons */
+  border: 1.8px solid var(--gh);
+  background: transparent;
+}
+.navbar a[href*="github.com"]:hover,
+.about-links a[href*="github.com"]:hover,
+.quarto-about-trestles .about-contents a[href*="github.com"]:hover{
+  color: var(--gh) !important;
+}
+
+/* LINKEDIN */
+.navbar a[href*="linkedin.com"],
+.about-links a[href*="linkedin.com"],
+.quarto-about-trestles .about-contents a[href*="linkedin.com"]{
+  color: var(--li) !important;
+  border-color: var(--li) !important;
+}
+.about-links a[href*="linkedin.com"]{
+  border: 1.8px solid var(--li);
+  background: transparent;
+}
+.navbar a[href*="linkedin.com"]:hover,
+.about-links a[href*="linkedin.com"]:hover,
+.quarto-about-trestles .about-contents a[href*="linkedin.com"]:hover{
+  color: var(--li) !important;
+}
+
+/* EMAIL */
+.navbar a[href^="mailto:"],
+.about-links a[href^="mailto:"],
+.quarto-about-trestles .about-contents a[href^="mailto:"]{
+  color: var(--mail) !important;
+  border-color: var(--mail) !important;
+}
+.about-links a[href^="mailto:"]{
+  border: 1.8px solid var(--mail);
+  background: transparent;
+}
+.navbar a[href^="mailto:"]:hover,
+.about-links a[href^="mailto:"]:hover,
+.quarto-about-trestles .about-contents a[href^="mailto:"]:hover{
+  color: var(--mail) !important;
+}
+
+/* Shared hover effect */
+.navbar a:hover,
+.about-links a:hover,
+.quarto-about-trestles .about-contents a:hover {
+  border-radius: 10px;
+  transform: translateY(-1px);
+  box-shadow: 0 0 12px 4px currentColor;
+  transition: all 0.25s ease;
+}
+
+/* Keep brand colors on hover */
+.navbar a[href*="github.com"]:hover,
+.about-links a[href*="github.com"]:hover,
+.quarto-about-trestles .about-contents a[href*="github.com"]:hover {
+  color: var(--gh) !important;
+}
+
+.navbar a[href*="linkedin.com"]:hover,
+.about-links a[href*="linkedin.com"]:hover,
+.quarto-about-trestles .about-contents a[href*="linkedin.com"]:hover {
+  color: var(--li) !important;
+}
+
+.navbar a[href^="mailto:"]:hover,
+.about-links a[href^="mailto:"]:hover,
+.quarto-about-trestles .about-contents a[href^="mailto:"]:hover {
+  color: var(--mail) !important;
+}
+
+/* Darker glass card */
+.quarto-listing .quarto-post,
+.quarto-grid-item .card,
+.quarto-listing-item {
+  background: rgba(28, 22, 50, 0.8);
+  border: 1px solid rgba(200, 180, 255, 0.12);
+  border-radius: 18px;
+  padding: 1.6rem;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  box-shadow:
+    0 14px 44px rgba(20, 10, 60, 0.55),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  transition: transform .25s ease, 
+              box-shadow .25s ease, 
+              border-color .25s ease, 
+              background .25s ease;
+}
+
+.quarto-listing .quarto-post:hover,
+.quarto-grid-item .card:hover,
+.quarto-listing-item:hover {
+  transform: translateY(-6px);
+  background: rgba(16, 13, 32, 0.78);
+  border-color: rgba(198, 181, 255, 0.28);
+  box-shadow:
+    0 18px 56px rgba(36, 18, 90, 0.6),
+    0 0 0 1px rgba(160, 130, 255, 0.22) inset;
+}
+
+/* Text inside blog card */
+.quarto-post .listing-title,
+.quarto-listing-item .listing-title,
+.quarto-post .listing-title a,
+.quarto-listing-item .listing-title a { 
+  color: #ffffff !important;
+  text-shadow: 0 0 10px rgba(180,150,255,0.35);
+}
+
+.quarto-post .listing-description,
+.quarto-listing-item .listing-description,
+.quarto-post p,
+.quarto-listing-item p {
+  color: #ffffff !important;
+  opacity: 1;
+}
+
+.quarto-post .listing-author,
+.quarto-post .listing-date {
+  color: #dcd4ff;
+  opacity: 0.95;
+}
+
+/* Badges in the card */
+.quarto-post .category, .badge, .listing-categories a {
+  color: #0b0720;
+  background: #cdbbff;
+  border: none;
+}
+
+/* Card image */
+.quarto-post img,
+.quarto-listing-item img,
+.quarto-grid-item .card img {
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.35);
+}
+
+/* ---- PURE WHITE, NO GLOW INSIDE BLOG CARD (scoped) ---- */
+
+/* kill any text-glow inside the card */
+.quarto-listing .quarto-post *,
+.quarto-listing-item * {
+  text-shadow: none !important;
+  filter: none !important;
+}
+
+/* title link in the card */
+.quarto-listing .quarto-post .listing-title,
+.quarto-listing-item .listing-title,
+.quarto-listing .quarto-post .listing-title a,
+.quarto-listing-item .listing-title a,
+.quarto-listing .quarto-post a.no-external {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+/* Paragraph/description text in the card */
+.quarto-listing .quarto-post .listing-description,
+.quarto-listing-item .listing-description,
+.quarto-listing .quarto-post p,
+.quarto-listing-item p {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+/* Secondary text inside the card */
+.quarto-listing .quarto-post .text-muted,
+.quarto-listing-item .text-muted,
+.quarto-listing .quarto-post .text-body-secondary,
+.quarto-listing-item .text-body-secondary {
+  color: #ffffff !important;
+  opacity: 1 !important;
 }

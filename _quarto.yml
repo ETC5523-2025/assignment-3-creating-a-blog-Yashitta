@@ -5,6 +5,7 @@ project:
 website:
   title: "Blogs"
   navbar:
+    background: "#0a081c"
     right:
       - about.qmd
       - icon: github
