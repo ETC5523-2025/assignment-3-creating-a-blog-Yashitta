@@ -1,7 +1,7 @@
 ---
 title: "Delta Variant and the Limits of Quarantine Effectiveness"
 author: "Yashitta Bawa"
-date: "2022-07-18"
+date: "2025-09-14"
 categories: [Blog]
 format: 
     html: 

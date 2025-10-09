@@ -312,3 +312,14 @@ text-shadow: 0 0 8px rgba(190,160,255,.5);
   color: #ffffff !important;
   opacity: 1 !important;
 }
+
+/* Remove extra spacing under subtitle in banner */
+.quarto-title-banner .quarto-title-meta,
+.quarto-title-banner .quarto-title-subtitle {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.quarto-title-banner {
+  padding-bottom: 0.8rem !important;
+}

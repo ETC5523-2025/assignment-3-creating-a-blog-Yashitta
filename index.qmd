@@ -1,5 +1,6 @@
 ---
-title: "ETC5523 Blog Assessment"
+title: "Project Atlas"
+subtitle: "Exploring ideas through data, design, and insight"
 listing:
   contents: posts
   sort: "date desc"
