@@ -1,15 +1,16 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "Portfolio"
+  title: "Blogs"
   navbar:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/etc5523-2022
-      - text: Blog
-        href: Blog.qmd
+        href: https://github.com/Yashitta
+      - icon: linkedin
+        href: https://www.linkedin.com/in/yashittabawa
 format:
   html:
     theme: cosmo

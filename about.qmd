@@ -2,18 +2,20 @@
 title: "About Me"
 image: profile.jpg
 about:
-  template: jolla
+  template: trestles
   links:
     - icon: github
       text: Github
       href: https://github.com/Yashitta
     - icon: linkedin
-      text: LinkedIn
+      text: Linkedin
       href: https://www.linkedin.com/in/yashittabawa
     - icon: envelope
-      text: Email
+      text: Mail
       href: mailto:ybaw0002@student.monash.edu
-
+format:
+  html:
+    theme: cosmo
 ---
 
 # 👋 Hi, I'm Yashitta
@@ -41,3 +43,10 @@ Beyond university, I enjoy **playing basketball**, **going to the gym**, **bakin
 ## 📌 This Site
 
 This site showcases selected coursework and mini-projects from my analytics journey at Monash University. It’s an evolving space where I continue to refine my writing, visualisation style, and coding practices as I grow as an analyst.  
+
+## 📫 Contact
+
+If you’d like to connect or collaborate, you can reach me at:  
+📧 **[ybaw0002@student.monash.edu](mailto:ybaw0002@student.monash.edu)**  
+🔗 **[LinkedIn](https://www.linkedin.com/in/yashittabawa)**  
+💻 **[GitHub](https://github.com/Yashitta)**  

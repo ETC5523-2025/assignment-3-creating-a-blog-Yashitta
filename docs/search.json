@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I am a Master of Business Analytics student at Monash University, originally from New Delhi, India. My academic and professional journey reflects a strong interest in how data-driven thinking can shape smarter, evidence-based decisions.\nBefore beginning my master’s, I worked in the investment industry at Aditya Birla Sun Life AMC, where I learned how data and analytics underpin financial strategy, portfolio management, and client insights. This experience built my appreciation for how numbers tell meaningful stories when translated effectively.\nI’m particularly passionate about transforming complex data into clear, actionable narratives through analytics and visualisation. My studies have strengthened my foundation in statistics, programming, and communication, helping me explore the full process — from data wrangling to interpretation and presentation.\nBeyond university, I enjoy playing basketball, going to the gym, baking, and travelling. These interests keep me balanced and curious — qualities I believe also drive thoughtful analysis and problem-solving.\n\n\n\nData & Code: R (tidyverse, ggplot2, Quarto), Python (pandas), Git/GitHub\n\nAnalysis: data visualisation, exploratory data analysis (EDA), model evaluation, and reproducible pipelines\n\nCommunication: concise analytical writing, clear figure design, and stakeholder-focused reporting\n\n\n\n\n\nDeveloping high-quality, publication-ready reports using R and Quarto with strong documentation and cross-referencing\n\nEnhancing my ability to translate analytical findings into strategic business insights\n\nBuilding collaborative and reproducible workflows that promote transparency and team efficiency\n\n\n\n\nThis site showcases selected coursework and mini-projects from my analytics journey at Monash University. It’s an evolving space where I continue to refine my writing, visualisation style, and coding practices as I grow as an analyst.\n\n\n\nIf you’d like to connect or collaborate, you can reach me at:\n📧 ybaw0002@student.monash.edu\n🔗 LinkedIn\n💻 GitHub"
+  },
+  {
+    "objectID": "about.html#what-i-work-with",
+    "href": "about.html#what-i-work-with",
+    "title": "About Me",
+    "section": "",
+    "text": "Data & Code: R (tidyverse, ggplot2, Quarto), Python (pandas), Git/GitHub\n\nAnalysis: data visualisation, exploratory data analysis (EDA), model evaluation, and reproducible pipelines\n\nCommunication: concise analytical writing, clear figure design, and stakeholder-focused reporting"
+  },
+  {
+    "objectID": "about.html#what-im-exploring-next",
+    "href": "about.html#what-im-exploring-next",
+    "title": "About Me",
+    "section": "",
+    "text": "Developing high-quality, publication-ready reports using R and Quarto with strong documentation and cross-referencing\n\nEnhancing my ability to translate analytical findings into strategic business insights\n\nBuilding collaborative and reproducible workflows that promote transparency and team efficiency"
+  },
+  {
+    "objectID": "about.html#this-site",
+    "href": "about.html#this-site",
+    "title": "About Me",
+    "section": "",
+    "text": "This site showcases selected coursework and mini-projects from my analytics journey at Monash University. It’s an evolving space where I continue to refine my writing, visualisation style, and coding practices as I grow as an analyst."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog Template",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!"
+  },
+  {
+    "objectID": "posts/Blog/Blog.html",
+    "href": "posts/Blog/Blog.html",
+    "title": "Delta Variant and the Limits of Quarantine Effectiveness",
+    "section": "",
+    "text": "The Delta variant of SARS-CoV-2 posed a major challenge to countries that relied on strict border quarantine to prevent outbreaks. Even with high vaccination rates, the variant’s higher transmissibility raised the question: could existing quarantine systems still contain imported infections?\nThis analysis revisits the study by Zachreson et al. (2022), which modelled the interaction between vaccine efficacy, transmission rates, and infection-control measures within quarantine systems similar to those used in Australia and New Zealand.\n\n\nQuarantine breaches were rare before Delta, but the variant’s basic reproduction number (𝑅₀ ≈ 6–8) made containment far more difficult.\nThe key question addressed was:\nTo what extent can vaccination and infection control offset the increased transmissibility of Delta in border-quarantine environments?\n\n\n\nThe authors used simulation modelling combining two components:\n\na quarantine model for 100 travellers and 20 workers over a 14-day period with PCR testing and case isolation, and\n\na branching-process model to estimate community-outbreak probabilities from breach events.\n\nScenarios varied vaccine efficacy (0–90 %), transmissibility (𝑅₀ = 3–10), and infection-control strength, allowing the study to test which combinations could maintain pre-Delta safety levels.\n\n\n\n\n\nCode\nlibrary(knitr)\n\ninclude_graphics(\"figure1.png\")\n\n\n\n\n\n\n\n\nFigure 1: Heatmap of R₀ and vaccine efficacy showing outbreak risk.\n\n\n\n\n\nFigure 1 illustrates how higher transmissibility sharply increased outbreak risk, even at high vaccine efficacy.\n\n\nCode\n# Created a small data frame\ndelta_summary &lt;- data.frame(\n  Scenario = c(\"Base Case\", \"High Efficacy\", \"Weak Control\", \"Very High R₀\"),\n  `Vaccine Efficacy (%)` = c(70, 90, 70, 80),\n  `R₀` = c(6, 6, 6, 8),\n  `Infection Control` = c(\"Strong\", \"Strong\", \"Weak\", \"Strong\"),\n  `Relative Outbreak Risk` = c(\"Moderate\", \"Low\", \"High\", \"High\"))\n\n# Table\nkable(\n  delta_summary,\n  caption = \"Summary of simulated scenarios showing combined effects of vaccine efficacy, transmissibility, and infection control on outbreak risk.\",\n  align = \"lcccl\")\n\n\n\n\nTable 1: Summary of simulated scenarios showing combined effects of vaccine efficacy, transmissibility, and infection control on outbreak risk.\n\n\n\n\n\n\n\n\n\n\n\n\n\nScenario\nVaccine.Efficacy….\nR.\nInfection.Control\nRelative.Outbreak.Risk\n\n\n\n\nBase Case\n70\n6\nStrong\nModerate\n\n\nHigh Efficacy\n90\n6\nStrong\nLow\n\n\nWeak Control\n70\n6\nWeak\nHigh\n\n\nVery High R₀\n80\n8\nStrong\nHigh\n\n\n\n\n\n\n\n\nTable 1 summarises the main scenario outcomes.\n\n\n\n\nVaccination alone is insufficient. At 𝑅₀ ≥ 6, vaccine efficacy above 70–80% is required just to maintain pre-Delta safety.\n\nInfection control remains critical. Weak quarantine protocols amplified breach risk up to 100× under low-efficacy conditions.\n\nCombined defences work best. High efficacy plus strong testing and isolation delayed the median time to outbreak from ≈ 15 days to &gt; 1000 days.\n\n\n\n\nThe study underscores that vaccination programs and strict quarantine measures must operate together.\nRelying solely on vaccine protection against highly transmissible variants risks repeated breaches.\nFor health agencies, this means maintaining multi-layered defence systems — vaccination, testing, ventilation, and rapid isolation — to reduce outbreak probability and manage imported risk effectively.\n\n\n\nDelta reshaped the risk landscape for border management.\nThe modelling shows that even strong vaccination coverage cannot fully offset the variant’s transmissibility without robust infection control.\nFor future preparedness, quarantine should be treated as a recurring necessity, not a temporary measure, ensuring that systems remain adaptable to emerging variants.\n\n\n\n\nZachreson, C., Shearer, F. M., Price, D. J., Lydeamore, M. J., McVernon, J., McCaw, J. M., & Geard, N.\nZachreson, C., Shearer, F. M., Price, D. J., Lydeamore, M. J., McVernon, J., McCaw, J. M., & Geard, N. (2022).\nCOVID-19 in low-tolerance border quarantine systems: Impact of the Delta variant of SARS-CoV-2.\nScience Advances, 8(14), eabm3624. https://doi.org/10.1126/sciadv.abm3624."
+  },
+  {
+    "objectID": "posts/Blog/Blog.html#understanding-the-problem",
+    "href": "posts/Blog/Blog.html#understanding-the-problem",
+    "title": "Delta Variant and the Limits of Quarantine Effectiveness",
+    "section": "",
+    "text": "Quarantine breaches were rare before Delta, but the variant’s basic reproduction number (𝑅₀ ≈ 6–8) made containment far more difficult.\nThe key question addressed was:\nTo what extent can vaccination and infection control offset the increased transmissibility of Delta in border-quarantine environments?"
+  },
+  {
+    "objectID": "posts/Blog/Blog.html#data-and-methods",
+    "href": "posts/Blog/Blog.html#data-and-methods",
+    "title": "Delta Variant and the Limits of Quarantine Effectiveness",
+    "section": "",
+    "text": "The authors used simulation modelling combining two components:\n\na quarantine model for 100 travellers and 20 workers over a 14-day period with PCR testing and case isolation, and\n\na branching-process model to estimate community-outbreak probabilities from breach events.\n\nScenarios varied vaccine efficacy (0–90 %), transmissibility (𝑅₀ = 3–10), and infection-control strength, allowing the study to test which combinations could maintain pre-Delta safety levels."
+  },
+  {
+    "objectID": "posts/Blog/Blog.html#key-results",
+    "href": "posts/Blog/Blog.html#key-results",
+    "title": "Delta Variant and the Limits of Quarantine Effectiveness",
+    "section": "",
+    "text": "Code\nlibrary(knitr)\n\ninclude_graphics(\"figure1.png\")\n\n\n\n\n\n\n\n\nFigure 1: Heatmap of R₀ and vaccine efficacy showing outbreak risk.\n\n\n\n\n\nFigure 1 illustrates how higher transmissibility sharply increased outbreak risk, even at high vaccine efficacy.\n\n\nCode\n# Created a small data frame\ndelta_summary &lt;- data.frame(\n  Scenario = c(\"Base Case\", \"High Efficacy\", \"Weak Control\", \"Very High R₀\"),\n  `Vaccine Efficacy (%)` = c(70, 90, 70, 80),\n  `R₀` = c(6, 6, 6, 8),\n  `Infection Control` = c(\"Strong\", \"Strong\", \"Weak\", \"Strong\"),\n  `Relative Outbreak Risk` = c(\"Moderate\", \"Low\", \"High\", \"High\"))\n\n# Table\nkable(\n  delta_summary,\n  caption = \"Summary of simulated scenarios showing combined effects of vaccine efficacy, transmissibility, and infection control on outbreak risk.\",\n  align = \"lcccl\")\n\n\n\n\nTable 1: Summary of simulated scenarios showing combined effects of vaccine efficacy, transmissibility, and infection control on outbreak risk.\n\n\n\n\n\n\n\n\n\n\n\n\n\nScenario\nVaccine.Efficacy….\nR.\nInfection.Control\nRelative.Outbreak.Risk\n\n\n\n\nBase Case\n70\n6\nStrong\nModerate\n\n\nHigh Efficacy\n90\n6\nStrong\nLow\n\n\nWeak Control\n70\n6\nWeak\nHigh\n\n\nVery High R₀\n80\n8\nStrong\nHigh\n\n\n\n\n\n\n\n\nTable 1 summarises the main scenario outcomes."
+  },
+  {
+    "objectID": "posts/Blog/Blog.html#main-findings",
+    "href": "posts/Blog/Blog.html#main-findings",
+    "title": "Delta Variant and the Limits of Quarantine Effectiveness",
+    "section": "",
+    "text": "Vaccination alone is insufficient. At 𝑅₀ ≥ 6, vaccine efficacy above 70–80% is required just to maintain pre-Delta safety.\n\nInfection control remains critical. Weak quarantine protocols amplified breach risk up to 100× under low-efficacy conditions.\n\nCombined defences work best. High efficacy plus strong testing and isolation delayed the median time to outbreak from ≈ 15 days to &gt; 1000 days."
+  },
+  {
+    "objectID": "posts/Blog/Blog.html#implications-for-public-health-policy",
+    "href": "posts/Blog/Blog.html#implications-for-public-health-policy",
+    "title": "Delta Variant and the Limits of Quarantine Effectiveness",
+    "section": "",
+    "text": "The study underscores that vaccination programs and strict quarantine measures must operate together.\nRelying solely on vaccine protection against highly transmissible variants risks repeated breaches.\nFor health agencies, this means maintaining multi-layered defence systems — vaccination, testing, ventilation, and rapid isolation — to reduce outbreak probability and manage imported risk effectively."
+  },
+  {
+    "objectID": "posts/Blog/Blog.html#conclusion",
+    "href": "posts/Blog/Blog.html#conclusion",
+    "title": "Delta Variant and the Limits of Quarantine Effectiveness",
+    "section": "",
+    "text": "Delta reshaped the risk landscape for border management.\nThe modelling shows that even strong vaccination coverage cannot fully offset the variant’s transmissibility without robust infection control.\nFor future preparedness, quarantine should be treated as a recurring necessity, not a temporary measure, ensuring that systems remain adaptable to emerging variants."
+  },
+  {
+    "objectID": "posts/Blog/Blog.html#references",
+    "href": "posts/Blog/Blog.html#references",
+    "title": "Delta Variant and the Limits of Quarantine Effectiveness",
+    "section": "",
+    "text": "Zachreson, C., Shearer, F. M., Price, D. J., Lydeamore, M. J., McVernon, J., McCaw, J. M., & Geard, N.\nZachreson, C., Shearer, F. M., Price, D. J., Lydeamore, M. J., McVernon, J., McCaw, J. M., & Geard, N. (2022).\nCOVID-19 in low-tolerance border quarantine systems: Impact of the Delta variant of SARS-CoV-2.\nScience Advances, 8(14), eabm3624. https://doi.org/10.1126/sciadv.abm3624."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ETC5523 Blog Assessment",
+    "section": "",
+    "text": "Delta Variant and the Limits of Quarantine Effectiveness\n\n\n\n\n\n\n\n\n\n\n\nYashitta Bawa\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog Template\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 18, 2022\n\n\nEmi Tanaka\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About Me",
+    "section": "",
+    "text": "If you’d like to connect or collaborate, you can reach me at:\n📧 ybaw0002@student.monash.edu\n🔗 LinkedIn\n💻 GitHub"
+  }
+]

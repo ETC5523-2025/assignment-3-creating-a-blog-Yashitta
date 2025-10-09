@@ -16,16 +16,16 @@ This analysis revisits the study by **Zachreson et al. (2022)**, which modelled 
 
 ## Understanding the Problem
 
-Quarantine breaches were rare before Delta, but the variant’s basic reproduction number (𝑅₀ ≈ 6–8) made containment far more difficult.  
-The key question addressed was:  
+Quarantine breaches were rare before Delta, but the variant’s basic reproduction number (𝑅₀ ≈ 6–8) made containment far more difficult.\
+The key question addressed was:\
 **To what extent can vaccination and infection control offset the increased transmissibility of Delta in border-quarantine environments?**
 
 ## Data and Methods
 
 The authors used **simulation modelling** combining two components:
 
-- a **quarantine model** for 100 travellers and 20 workers over a 14-day period with PCR testing and case isolation, and  
-- a **branching-process model** to estimate community-outbreak probabilities from breach events.
+-   a **quarantine model** for 100 travellers and 20 workers over a 14-day period with PCR testing and case isolation, and\
+-   a **branching-process model** to estimate community-outbreak probabilities from breach events.
 
 Scenarios varied **vaccine efficacy (0–90 %)**, **transmissibility (𝑅₀ = 3–10)**, and **infection-control strength**, allowing the study to test which combinations could maintain pre-Delta safety levels.
 
@@ -63,29 +63,28 @@ kable(
 
 ## Main Findings
 
-- **Vaccination alone is insufficient.** At 𝑅₀ ≥ 6, vaccine efficacy above 70–80% is required just to maintain pre-Delta safety.  
-- **Infection control remains critical.** Weak quarantine protocols amplified breach risk up to 100× under low-efficacy conditions.  
-- **Combined defences work best.** High efficacy plus strong testing and isolation delayed the median time to outbreak from ≈ 15 days to > 1000 days.  
+-   **Vaccination alone is insufficient.** At 𝑅₀ ≥ 6, vaccine efficacy above 70–80% is required just to maintain pre-Delta safety.\
+-   **Infection control remains critical.** Weak quarantine protocols amplified breach risk up to 100× under low-efficacy conditions.\
+-   **Combined defences work best.** High efficacy plus strong testing and isolation delayed the median time to outbreak from ≈ 15 days to \> 1000 days.
 
 ## Implications for Public Health Policy
 
-The study underscores that vaccination programs and strict quarantine measures must operate together.  
-Relying solely on vaccine protection against highly transmissible variants risks repeated breaches.  
+The study underscores that vaccination programs and strict quarantine measures must operate together.\
+Relying solely on vaccine protection against highly transmissible variants risks repeated breaches.
 
-For health agencies, this means maintaining **multi-layered defence systems** — vaccination, testing, ventilation, and rapid isolation — to reduce outbreak probability and manage imported risk effectively.  
+For health agencies, this means maintaining **multi-layered defence systems** — vaccination, testing, ventilation, and rapid isolation — to reduce outbreak probability and manage imported risk effectively.
 
 ## Conclusion
 
-Delta reshaped the risk landscape for border management.  
-The modelling shows that even strong vaccination coverage cannot fully offset the variant’s transmissibility without robust infection control.  
+Delta reshaped the risk landscape for border management.\
+The modelling shows that even strong vaccination coverage cannot fully offset the variant’s transmissibility without robust infection control.
 
-For future preparedness, quarantine should be treated as a **recurring necessity**, not a temporary measure, ensuring that systems remain adaptable to emerging variants.  
+For future preparedness, quarantine should be treated as a **recurring necessity**, not a temporary measure, ensuring that systems remain adaptable to emerging variants.
 
 ## References
 
 -   **Zachreson, C., Shearer, F. M., Price, D. J., Lydeamore, M. J., McVernon, J., McCaw, J. M., & Geard, N.**
 
-    Zachreson, C., Shearer, F. M., Price, D. J., Lydeamore, M. J., McVernon, J., McCaw, J. M., & Geard, N. (2022).  
-    *COVID-19 in low-tolerance border quarantine systems: Impact of the Delta variant of SARS-CoV-2.*  
+    Zachreson, C., Shearer, F. M., Price, D. J., Lydeamore, M. J., McVernon, J., McCaw, J. M., & Geard, N. (2022).\
+    *COVID-19 in low-tolerance border quarantine systems: Impact of the Delta variant of SARS-CoV-2.*\
     *Science Advances, 8*(14), eabm3624. <https://doi.org/10.1126/sciadv.abm3624>.
-
