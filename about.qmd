@@ -19,17 +19,20 @@ format:
       text: |
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     theme: cosmo
+    css: styles.css
 ---
 
 # About Me 
 
-I am a **Master of Business Analytics student at Monash University**, originally from **New Delhi, India**. My academic and professional journey reflects a strong interest in how data-driven thinking can shape smarter, evidence-based decisions.  
+I’m a **Master of Business Analytics student at [Monash University](https://www.monash.edu)**, originally from **New Delhi, India**. My journey reflects a strong interest in using data-driven thinking to make smarter, evidence-based decisions.  
 
-Before beginning my master’s, I worked in the **investment industry at Aditya Birla Sun Life AMC**, where I learned how data and analytics underpin financial strategy, portfolio management, and client insights. This experience built my appreciation for how numbers tell meaningful stories when translated effectively.  
+I completed my undergraduate degree in **Bachelor of Commerce (Honours), specialising in Finance** from **[Gargi College, University of Delhi](https://www.gargicollege.in)**.  
 
-I’m particularly passionate about **transforming complex data into clear, actionable narratives** through analytics and visualisation. My studies have strengthened my foundation in statistics, programming, and communication, helping me explore the full process — from data wrangling to interpretation and presentation.  
+Before starting my master’s, I worked in the **investment industry at [Aditya Birla Sun Life AMC](https://mutualfund.adityabirlacapital.com)**, where I learned how analytics drives financial strategy, portfolio management, and client insights. This experience deepened my appreciation for how numbers tell meaningful stories.  
 
-Beyond university, I enjoy **playing basketball**, **going to the gym**, **baking**, and **travelling**. These interests keep me balanced and curious — qualities I believe also drive thoughtful analysis and problem-solving.  
+I’m passionate about **turning complex data into clear, actionable insights** through analytics and visualisation. My studies have strengthened my foundation in statistics, programming, and communication, helping me understand the full process — from data wrangling to interpretation and presentation.  
+
+Outside university, I enjoy **basketball**, **the gym**, **baking**, and **travelling** — interests that keep me balanced, curious, and creative in how I approach problem-solving.  
 
 ::: {.full-below}
 # What I Work With

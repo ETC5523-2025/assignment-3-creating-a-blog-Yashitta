@@ -104,7 +104,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="none">
 </head>
 
 <body class="nav-fixed">
@@ -214,12 +214,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="delta-variant-and-the-limits-of-quarantine-effectiveness" class="level1">
 <h1>Delta Variant and the Limits of Quarantine Effectiveness</h1>
 <p>The Delta variant of SARS-CoV-2 posed a major challenge to countries that relied on strict border quarantine to prevent outbreaks. Even with high vaccination rates, the variant’s higher transmissibility raised the question: <strong>could existing quarantine systems still contain imported infections?</strong></p>
-<p>This analysis revisits the study by <strong>Zachreson et al.&nbsp;(2022)</strong>, which modelled the interaction between vaccine efficacy, transmission rates, and infection-control measures within quarantine systems similar to those used in <strong>Australia</strong> and <strong>New Zealand</strong>.</p>
+<p>This analysis revisits the study by <strong>Zachreson et al.&nbsp;(2022)</strong>, which modelled the interaction between vaccine efficacy, transmission rates, and infection-control measures within quarantine systems similar to those used in <strong>Australia</strong> and <strong>New Zealand</strong>.<br>
+The study’s simplified approach — condensing complex modelling into a few clear scenarios — was designed to help decision-makers quickly understand the trade-offs between vaccination, transmission, and quarantine control without being overwhelmed by technical detail.</p>
 <section id="understanding-the-problem" class="level2">
 <h2 class="anchored" data-anchor-id="understanding-the-problem">Understanding the Problem</h2>
 <p>Quarantine breaches were rare before Delta, but the variant’s basic reproduction number (𝑅₀ ≈ 6–8) made containment far more difficult.<br>
 The key question addressed was:<br>
 <strong>To what extent can vaccination and infection control offset the increased transmissibility of Delta in border-quarantine environments?</strong></p>
+<p>While the original study explored multiple combinations of vaccine efficacy and transmission rates, this blog condenses those results into one representative figure and table.<br>
+This streamlined format reflects how <strong>technical managers and policy analysts</strong> often review evidence — prioritising clear thresholds and overall trends rather than exhaustive scenario outputs.<br>
+Simplifying the visual presentation helps communicate <strong>which conditions pose the greatest risk</strong> without overwhelming decision-makers with excessive model detail.</p>
 </section>
 <section id="data-and-methods" class="level2">
 <h2 class="anchored" data-anchor-id="data-and-methods">Data and Methods</h2>
@@ -229,7 +233,10 @@ The key question addressed was:<br>
 </li>
 <li>a <strong>branching-process model</strong> to estimate community-outbreak probabilities from breach events.</li>
 </ul>
-<p>Scenarios varied <strong>vaccine efficacy (0–90 %)</strong>, <strong>transmissibility (𝑅₀ = 3–10)</strong>, and <strong>infection-control strength</strong>, allowing the study to test which combinations could maintain pre-Delta safety levels.</p>
+<p>Scenarios varied <strong>vaccine efficacy (0–90%)</strong>, <strong>transmissibility (𝑅₀ = 3–10)</strong>, and <strong>infection-control strength</strong>, allowing the study to test which combinations could maintain pre-Delta safety levels.</p>
+<p>The model incorporated key operational details of border quarantine: <strong>testing frequency (PCR every 3–4 days), isolation following detection</strong>, and an <strong>outbreak defined as a single undetected infection leading to community exposure</strong>.<br>
+Vaccination-derived immunity was treated as <em>population coverage</em>, rather than infection-acquired immunity, reflecting Delta-era conditions in Australia and New Zealand.<br>
+This design helped quantify how infection-control measures and vaccine protection jointly influence the probability of a breach turning into an outbreak.</p>
 </section>
 <section id="key-results" class="level2">
 <h2 class="anchored" data-anchor-id="key-results">Key Results</h2>
@@ -238,13 +245,13 @@ The key question addressed was:<br>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(knitr)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">include_graphics</span>(<span class="st">"figure1.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">include_graphics</span>(<span class="st">"images/figure1.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
 <div id="fig-heatmap" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-heatmap-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figure1.png" class="img-fluid figure-img" width="732">
+<img src="images/figure1.png" class="img-fluid figure-img" width="732">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-heatmap-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1: Heatmap of R₀ and vaccine efficacy showing outbreak risk.
@@ -253,7 +260,9 @@ Figure&nbsp;1: Heatmap of R₀ and vaccine efficacy showing outbreak risk.
 </div>
 </div>
 </div>
-<p><a href="#fig-heatmap" class="quarto-xref">Figure&nbsp;1</a> illustrates how higher transmissibility sharply increased outbreak risk, even at high vaccine efficacy.</p>
+<p><a href="#fig-heatmap" class="quarto-xref">Figure&nbsp;1</a> illustrates how higher transmissibility sharply increased outbreak risk, even at high vaccine efficacy.<br>
+Rather than presenting every combination of inputs from the original paper, this single visual highlights the <strong>central trade-off</strong>: as Delta’s transmissibility (𝑅₀) rises, vaccination alone becomes insufficient to prevent breaches.<br>
+This concise presentation helps focus attention on the <strong>thresholds that matter for public-health planning</strong>, rather than detailed parameter sensitivity.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -331,7 +340,7 @@ Table&nbsp;1: Summary of simulated scenarios showing combined effects of vaccine
 </figure>
 </div>
 </div>
-<p><a href="#tbl-summary" class="quarto-xref">Table&nbsp;1</a> summarises the main scenario outcomes.</p>
+<p><a href="#tbl-summary" class="quarto-xref">Table&nbsp;1</a> summarises the main scenario outcomes, emphasising how different combinations of <strong>vaccine efficacy</strong>, <strong>transmission rate</strong>, and <strong>control strength</strong> affect outbreak risk in quarantine systems.</p>
 </section>
 <section id="main-findings" class="level2">
 <h2 class="anchored" data-anchor-id="main-findings">Main Findings</h2>
@@ -340,20 +349,25 @@ Table&nbsp;1: Summary of simulated scenarios showing combined effects of vaccine
 </li>
 <li><strong>Infection control remains critical.</strong> Weak quarantine protocols amplified breach risk up to 100× under low-efficacy conditions.<br>
 </li>
-<li><strong>Combined defences work best.</strong> High efficacy plus strong testing and isolation delayed the median time to outbreak from ≈ 15 days to &gt; 1000 days.</li>
+<li><strong>Combined defences work best.</strong> High efficacy plus strong testing and isolation delayed the median time to outbreak from ≈ 15 days to &gt;1000 days.</li>
 </ul>
+<p>These findings are not meant to forecast exact outbreak numbers but to illustrate how different layers of defence interact.<br>
+By simplifying the results to key thresholds, the analysis highlights <strong>where resources and policies make the greatest impact</strong>, helping decision-makers prioritise practical interventions over fine-grained model precision.</p>
 </section>
 <section id="implications-for-public-health-policy" class="level2">
 <h2 class="anchored" data-anchor-id="implications-for-public-health-policy">Implications for Public Health Policy</h2>
 <p>The study underscores that vaccination programs and strict quarantine measures must operate together.<br>
 Relying solely on vaccine protection against highly transmissible variants risks repeated breaches.</p>
 <p>For health agencies, this means maintaining <strong>multi-layered defence systems</strong> — vaccination, testing, ventilation, and rapid isolation — to reduce outbreak probability and manage imported risk effectively.</p>
+<p>While the model simplifies complex real-world dynamics, its results remain valuable for comparing relative risks rather than predicting exact outcomes.<br>
+This perspective helps policymakers interpret findings as <strong>strategic guidance</strong>, showing how layered interventions can sustain quarantine effectiveness under high-transmission variants like Delta.</p>
 </section>
 <section id="conclusion" class="level2">
 <h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
 <p>Delta reshaped the risk landscape for border management.<br>
 The modelling shows that even strong vaccination coverage cannot fully offset the variant’s transmissibility without robust infection control.</p>
 <p>For future preparedness, quarantine should be treated as a <strong>recurring necessity</strong>, not a temporary measure, ensuring that systems remain adaptable to emerging variants.</p>
+<p>Although simplified, this model demonstrates how <strong>scenario-based analysis</strong> can inform planning and preparedness under uncertainty, helping policymakers anticipate rather than react to evolving threats.</p>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
